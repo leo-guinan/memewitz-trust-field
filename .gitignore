@@ -1,0 +1,22 @@
+# Local/private inputs
+.env
+.env.*
+*.private.*
+*.ndjson
+*.jsonl
+raw/
+private/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
+
+# Generated local output not part of the public collection
+*.log

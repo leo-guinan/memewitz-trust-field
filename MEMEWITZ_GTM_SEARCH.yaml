@@ -1,0 +1,108 @@
+# Memewitz DEX search configuration
+# DEX here means Distribution & Evidence Exchange: a watch-only GTM research layer.
+# It does not trade, sign, custody funds, solicit contributions, or make investment calls.
+
+search:
+  id: memewitz-dex-gtm-2026-08-24
+  source_path: supplied-local-ndjson-export.ndjson
+  operator_handle: itzmemewitz
+  capture_limitations:
+    - visible_tweet_surface_only
+    - hidden_replies_unavailable
+    - actor_level_likes_unavailable
+  output_path: search-results.json
+
+  # GTM structure from today's forkable newspaper model.
+  lanes:
+    market_problem:
+      label: Market / problem
+      queries:
+        - dex
+        - bots
+        - scam
+        - drained
+        - trust
+        - migration
+      question: What costly uncertainty is this account already teaching people to resolve?
+    audience:
+      label: Audience / reader
+      queries:
+        - holders
+        - community
+        - traders
+        - beginners
+        - solana
+        - bot
+      question: Who repeatedly responds, participates, or asks for operating guidance?
+    proof_artifacts:
+      label: Proof / artifacts
+      queries:
+        - locked
+        - burn
+        - wallet
+        - on-chain
+        - gmgn
+        - streamflow
+        - strategy
+        - results
+      question: What can be converted into a source-preserving artifact rather than a claim?
+    offer:
+      label: Offer / transformation
+      queries:
+        - analysis
+        - checklist
+        - report
+        - strategy
+        - callout
+        - before buying
+      question: What bounded job can the project do for a reader before the reader takes risk?
+    distribution:
+      label: Distribution / format
+      queries:
+        - thread
+        - post
+        - content
+        - callout
+        - community
+        - twitter
+      question: Which native formats already fit the account's behavior?
+    conversion:
+      label: Conversion / next action
+      queries:
+        - reply
+        - feedback
+        - contribute
+        - join
+        - submit
+        - follow
+      question: What is the smallest measurable action that proves useful intent?
+    falsifiers:
+      label: Falsifiers / stop conditions
+      queries:
+        - no
+        - failed
+        - loss
+        - dump
+        - mistake
+        - scam
+        - correction
+      question: What evidence would make the proposed GTM wedge wrong?
+
+  scoring:
+    evidence_weight: 1
+    original_author_weight: 2
+    current_30_day_weight: 2
+    replies_weight: 1
+    reposts_weight: 1
+    likes_weight: 1
+    no_financial_recommendations: true
+    no_private_data_in_output: true
+    require_human_review_before_publication: true
+
+  deliverables:
+    - corpus_summary
+    - lane_hits
+    - representative_posts
+    - claim_ledger
+    - gtM_hypotheses
+    - next_experiment

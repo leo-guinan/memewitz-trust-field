@@ -1,0 +1,1019 @@
+{
+  "collection": "Before You Buy the DEX",
+  "model": "gemini-3-pro-image-preview",
+  "aspect_ratio": "1:1",
+  "style": "recurring orange-cream market clerk fox; editorial fable; no text",
+  "source_book": "101_THINGS_BEFORE_BUYING_THE_DEX.md",
+  "items": [
+    {
+      "number": 1,
+      "title": "Create a Print.World collection for the first believers",
+      "description": "Build a limited NFT collection that identifies people who joined the experiment early. Use Print.World and the available Binder/collection tooling. The collection should say “I was here when this was uncertain,” not “I am guaranteed tokens.” Define supply, eligibility, metadata, token-binding rules, transferability, and failure behavior before minting. A holder may later transfer or sell the NFT if a market exists; never describe that as guaranteed liquidity.",
+      "image": "nft-collection/images/001-create-a-print-world-collection-for-the-first-believer.png",
+      "prompt": "nft-collection/prompts/001-create-a-print-world-collection-for-the-first-believer.txt",
+      "status": "generated",
+      "attempts": 1,
+      "bytes": 786455
+    },
+    {
+      "number": 2,
+      "title": "Name the cohort",
+      "description": "Give the first-believer group a name that is larger than the current ticker and survives a price chart.",
+      "image": "nft-collection/images/002-name-the-cohort.png",
+      "prompt": "nft-collection/prompts/002-name-the-cohort.txt",
+      "status": "generated",
+      "attempts": 1,
+      "bytes": 781292
+    },
+    {
+      "number": 3,
+      "title": "Write the collection constitution",
+      "description": "State who can mint, how many exist, whether they can be transferred, what the creator may change, and what cannot be changed.",
+      "image": "nft-collection/images/003-write-the-collection-constitution.png",
+      "prompt": "nft-collection/prompts/003-write-the-collection-constitution.txt",
+      "status": "generated",
+      "attempts": 1,
+      "bytes": 717601
+    },
+    {
+      "number": 4,
+      "title": "Make the collection useful if the token dies",
+      "description": "The NFT should preserve a story, artwork, status, or access right even if the token reaches zero.",
+      "image": "nft-collection/images/004-make-the-collection-useful-if-the-token-dies.png",
+      "prompt": "nft-collection/prompts/004-make-the-collection-useful-if-the-token-dies.txt",
+      "status": "generated",
+      "attempts": 1,
+      "bytes": 781436
+    },
+    {
+      "number": 5,
+      "title": "Separate belief from exposure",
+      "description": "Let someone identify as an early believer without requiring them to buy the token.",
+      "image": "nft-collection/images/005-separate-belief-from-exposure.png",
+      "prompt": "nft-collection/prompts/005-separate-belief-from-exposure.txt",
+      "status": "generated",
+      "attempts": 1,
+      "bytes": 727337
+    },
+    {
+      "number": 6,
+      "title": "Do not bundle an ambiguous promise",
+      "description": "If an NFT is linked to tokens, state exactly what the link means and what it does not mean.",
+      "image": "nft-collection/images/006-do-not-bundle-an-ambiguous-promise.png",
+      "prompt": "nft-collection/prompts/006-do-not-bundle-an-ambiguous-promise.txt",
+      "status": "generated",
+      "attempts": 1,
+      "bytes": 707528
+    },
+    {
+      "number": 7,
+      "title": "Publish the supply before minting",
+      "description": "Do not let scarcity appear after the first buyers arrive.",
+      "image": "nft-collection/images/007-publish-the-supply-before-minting.png",
+      "prompt": "nft-collection/prompts/007-publish-the-supply-before-minting.txt",
+      "status": "generated",
+      "attempts": 1,
+      "bytes": 566227
+    },
+    {
+      "number": 8,
+      "title": "Reserve a visible creator allocation",
+      "description": "If the creator keeps pieces, publish the number, purpose, and transfer rules.",
+      "image": "nft-collection/images/008-reserve-a-visible-creator-allocation.png",
+      "prompt": "nft-collection/prompts/008-reserve-a-visible-creator-allocation.txt",
+      "status": "generated",
+      "attempts": 1,
+      "bytes": 794188
+    },
+    {
+      "number": 9,
+      "title": "Give the collection a transfer test",
+      "description": "Before launch, test minting, metadata, wallet display, transferability, and secondary-sale behavior with a nonvaluable test asset.",
+      "image": "nft-collection/images/009-give-the-collection-a-transfer-test.png",
+      "prompt": "nft-collection/prompts/009-give-the-collection-a-transfer-test.txt",
+      "status": "generated",
+      "attempts": 1,
+      "bytes": 757169
+    },
+    {
+      "number": 10,
+      "title": "Let holders design one trait",
+      "description": "Give early believers a bounded role in the collection’s visual language.",
+      "image": "nft-collection/images/010-let-holders-design-one-trait.png",
+      "prompt": "nft-collection/prompts/010-let-holders-design-one-trait.txt",
+      "status": "generated",
+      "attempts": 1,
+      "bytes": 720504
+    },
+    {
+      "number": 11,
+      "title": "Make one artifact together",
+      "description": "Before asking the community for money, have it produce an image, field report, sound, map, or story that could not exist without the group.",
+      "image": "nft-collection/images/011-make-one-artifact-together.png",
+      "prompt": "nft-collection/prompts/011-make-one-artifact-together.txt",
+      "status": "generated",
+      "attempts": 1,
+      "bytes": 720983
+    },
+    {
+      "number": 12,
+      "title": "Publish the first-believer list without doxxing anyone",
+      "description": "Use consented handles, pseudonyms, or aggregate counts. Never publish raw wallet identities by default.",
+      "image": "nft-collection/images/012-publish-the-first-believer-list-without-doxxing-anyone.png",
+      "prompt": "nft-collection/prompts/012-publish-the-first-believer-list-without-doxxing-anyone.txt",
+      "status": "generated",
+      "attempts": 1,
+      "bytes": 717408
+    },
+    {
+      "number": 13,
+      "title": "Record the exact chain",
+      "description": "Write down the chain name and verify it from a canonical source.",
+      "image": "nft-collection/images/013-record-the-exact-chain.png",
+      "prompt": "nft-collection/prompts/013-record-the-exact-chain.txt",
+      "status": "generated",
+      "attempts": 1,
+      "bytes": 680056
+    },
+    {
+      "number": 14,
+      "title": "Record the exact mint",
+      "description": "A ticker is not an identity. Store the full mint and verify it independently.",
+      "image": "nft-collection/images/014-record-the-exact-mint.png",
+      "prompt": "nft-collection/prompts/014-record-the-exact-mint.txt",
+      "status": "generated",
+      "attempts": 1,
+      "bytes": 729662
+    },
+    {
+      "number": 15,
+      "title": "Link the official account",
+      "description": "Use a canonical project account and record when the link was checked.",
+      "image": "nft-collection/images/015-link-the-official-account.png",
+      "prompt": "nft-collection/prompts/015-link-the-official-account.txt",
+      "status": "generated",
+      "attempts": 1,
+      "bytes": 736591
+    },
+    {
+      "number": 16,
+      "title": "Link the creator account",
+      "description": "Record the creator’s public account, but do not infer control of unrelated wallets.",
+      "image": "nft-collection/images/016-link-the-creator-account.png",
+      "prompt": "nft-collection/prompts/016-link-the-creator-account.txt",
+      "status": "generated",
+      "attempts": 1,
+      "bytes": 768721
+    },
+    {
+      "number": 17,
+      "title": "Record the token name and symbol",
+      "description": "Preserve capitalization and punctuation. Copycats thrive in ambiguity.",
+      "image": "nft-collection/images/017-record-the-token-name-and-symbol.png",
+      "prompt": "nft-collection/prompts/017-record-the-token-name-and-symbol.txt",
+      "status": "generated",
+      "attempts": 1,
+      "bytes": 741204
+    },
+    {
+      "number": 18,
+      "title": "Check for relaunches",
+      "description": "Search whether the name, artwork, or social account existed before this mint.",
+      "image": "nft-collection/images/018-check-for-relaunches.png",
+      "prompt": "nft-collection/prompts/018-check-for-relaunches.txt",
+      "status": "generated",
+      "attempts": 1,
+      "bytes": 891867
+    },
+    {
+      "number": 19,
+      "title": "Check for impersonators",
+      "description": "Verify every linked site, account, community, and contract against the official source.",
+      "image": "nft-collection/images/019-check-for-impersonators.png",
+      "prompt": "nft-collection/prompts/019-check-for-impersonators.txt",
+      "status": "generated",
+      "attempts": 1,
+      "bytes": 920620
+    },
+    {
+      "number": 20,
+      "title": "Freeze the identity card",
+      "description": "Publish a one-page identity card with mint, chain, creator, launch time, official links, and known aliases.",
+      "image": "nft-collection/images/020-freeze-the-identity-card.png",
+      "prompt": "nft-collection/prompts/020-freeze-the-identity-card.txt",
+      "status": "generated",
+      "attempts": 1,
+      "bytes": 677147
+    },
+    {
+      "number": 21,
+      "title": "Record the status",
+      "description": "Mark the token pre-migration, migrated, paused, inactive, banned, or unknown.",
+      "image": "nft-collection/images/021-record-the-status.png",
+      "prompt": "nft-collection/prompts/021-record-the-status.txt",
+      "status": "generated",
+      "attempts": 1,
+      "bytes": 675744
+    },
+    {
+      "number": 22,
+      "title": "Record the timestamp",
+      "description": "Every market observation needs a UTC timestamp. A screenshot without a time is a mood.",
+      "image": "nft-collection/images/022-record-the-timestamp.png",
+      "prompt": "nft-collection/prompts/022-record-the-timestamp.txt",
+      "status": "generated",
+      "attempts": 1,
+      "bytes": 742795
+    },
+    {
+      "number": 23,
+      "title": "Read the creator’s prior work",
+      "description": "Review earlier launches, not only the current promise.",
+      "image": "nft-collection/images/023-read-the-creator-s-prior-work.png",
+      "prompt": "nft-collection/prompts/023-read-the-creator-s-prior-work.txt",
+      "status": "generated",
+      "attempts": 1,
+      "bytes": 790475
+    },
+    {
+      "number": 24,
+      "title": "Count experiments honestly",
+      "description": "List prior tokens, their stated purpose, their observed peak, and their current status without turning the table into a trophy case.",
+      "image": "nft-collection/images/024-count-experiments-honestly.png",
+      "prompt": "nft-collection/prompts/024-count-experiments-honestly.txt",
+      "status": "generated",
+      "attempts": 1,
+      "bytes": 762096
+    },
+    {
+      "number": 25,
+      "title": "Read the failure posts",
+      "description": "A creator who records losses gives you more information than one who only posts wins.",
+      "image": "nft-collection/images/025-read-the-failure-posts.png",
+      "prompt": "nft-collection/prompts/025-read-the-failure-posts.txt",
+      "status": "generated",
+      "attempts": 1,
+      "bytes": 792432
+    },
+    {
+      "number": 26,
+      "title": "Separate candor from competence",
+      "description": "Honesty is valuable. It does not prove that the system will work.",
+      "image": "nft-collection/images/026-separate-candor-from-competence.png",
+      "prompt": "nft-collection/prompts/026-separate-candor-from-competence.txt",
+      "status": "generated",
+      "attempts": 1,
+      "bytes": 747081
+    },
+    {
+      "number": 27,
+      "title": "Ask what the creator is optimizing",
+      "description": "Is the goal art, learning, trading, community, a bot, a social experiment, or a revenue stream?",
+      "image": "nft-collection/images/027-ask-what-the-creator-is-optimizing.png",
+      "prompt": "nft-collection/prompts/027-ask-what-the-creator-is-optimizing.txt",
+      "status": "generated",
+      "attempts": 1,
+      "bytes": 761778
+    },
+    {
+      "number": 28,
+      "title": "Ask what the creator will not do",
+      "description": "A boundary is more useful than a slogan.",
+      "image": "nft-collection/images/028-ask-what-the-creator-will-not-do.png",
+      "prompt": "nft-collection/prompts/028-ask-what-the-creator-will-not-do.txt",
+      "status": "generated",
+      "attempts": 1,
+      "bytes": 557761
+    },
+    {
+      "number": 29,
+      "title": "Check the correction history",
+      "description": "Does the creator correct wrong claims visibly, or quietly replace them?",
+      "image": "nft-collection/images/029-check-the-correction-history.png",
+      "prompt": "nft-collection/prompts/029-check-the-correction-history.txt",
+      "status": "generated",
+      "attempts": 1,
+      "bytes": 630342
+    },
+    {
+      "number": 30,
+      "title": "Check the source trail",
+      "description": "Every important claim should point to a transaction, lock, code change, or dated artifact.",
+      "image": "nft-collection/images/030-check-the-source-trail.png",
+      "prompt": "nft-collection/prompts/030-check-the-source-trail.txt",
+      "status": "regenerated",
+      "attempts": 1,
+      "bytes": 809292
+    },
+    {
+      "number": 31,
+      "title": "Ask who can operate the project",
+      "description": "If one person disappears, what remains?",
+      "image": "nft-collection/images/031-ask-who-can-operate-the-project.png",
+      "prompt": "nft-collection/prompts/031-ask-who-can-operate-the-project.txt",
+      "status": "generated",
+      "attempts": 1,
+      "bytes": 674192
+    },
+    {
+      "number": 32,
+      "title": "Record conflicts",
+      "description": "If the creator benefits from a behavior they are encouraging, say so plainly.",
+      "image": "nft-collection/images/032-record-conflicts.png",
+      "prompt": "nft-collection/prompts/032-record-conflicts.txt",
+      "status": "generated",
+      "attempts": 1,
+      "bytes": 778894
+    },
+    {
+      "number": 33,
+      "title": "Name the bot’s job",
+      "description": "Describe the bot in one sentence without calling it intelligent.",
+      "image": "nft-collection/images/033-name-the-bot-s-job.png",
+      "prompt": "nft-collection/prompts/033-name-the-bot-s-job.txt",
+      "status": "generated",
+      "attempts": 1,
+      "bytes": 758533
+    },
+    {
+      "number": 34,
+      "title": "Publish the inputs",
+      "description": "List the public signals the bot observes.",
+      "image": "nft-collection/images/034-publish-the-inputs.png",
+      "prompt": "nft-collection/prompts/034-publish-the-inputs.txt",
+      "status": "generated",
+      "attempts": 1,
+      "bytes": 859230
+    },
+    {
+      "number": 35,
+      "title": "Publish the outputs",
+      "description": "Explain whether it buys, sells, alerts, scores, filters, or reports.",
+      "image": "nft-collection/images/035-publish-the-outputs.png",
+      "prompt": "nft-collection/prompts/035-publish-the-outputs.txt",
+      "status": "generated",
+      "attempts": 1,
+      "bytes": 727637
+    },
+    {
+      "number": 36,
+      "title": "Publish the non-goals",
+      "description": "State what the bot is not designed to detect.",
+      "image": "nft-collection/images/036-publish-the-non-goals.png",
+      "prompt": "nft-collection/prompts/036-publish-the-non-goals.txt",
+      "status": "generated",
+      "attempts": 1,
+      "bytes": 730503
+    },
+    {
+      "number": 37,
+      "title": "Publish the known bugs",
+      "description": "A known flaw is a risk boundary, not a confession to hide.",
+      "image": "nft-collection/images/037-publish-the-known-bugs.png",
+      "prompt": "nft-collection/prompts/037-publish-the-known-bugs.txt",
+      "status": "generated",
+      "attempts": 1,
+      "bytes": 763528
+    },
+    {
+      "number": 38,
+      "title": "Separate bot activity from community activity",
+      "description": "Do not call bot volume organic community demand.",
+      "image": "nft-collection/images/038-separate-bot-activity-from-community-activity.png",
+      "prompt": "nft-collection/prompts/038-separate-bot-activity-from-community-activity.txt",
+      "status": "generated",
+      "attempts": 1,
+      "bytes": 913458
+    },
+    {
+      "number": 39,
+      "title": "Show one false positive",
+      "description": "A failed call teaches more than a perfect screenshot.",
+      "image": "nft-collection/images/039-show-one-false-positive.png",
+      "prompt": "nft-collection/prompts/039-show-one-false-positive.txt",
+      "status": "generated",
+      "attempts": 1,
+      "bytes": 708367
+    },
+    {
+      "number": 40,
+      "title": "Show one false negative",
+      "description": "Document a token the bot missed and why.",
+      "image": "nft-collection/images/040-show-one-false-negative.png",
+      "prompt": "nft-collection/prompts/040-show-one-false-negative.txt",
+      "status": "generated",
+      "attempts": 1,
+      "bytes": 803852
+    },
+    {
+      "number": 41,
+      "title": "Record strategy changes",
+      "description": "Timestamp every meaningful change to entry, exit, filtering, or migration logic.",
+      "image": "nft-collection/images/041-record-strategy-changes.png",
+      "prompt": "nft-collection/prompts/041-record-strategy-changes.txt",
+      "status": "generated",
+      "attempts": 1,
+      "bytes": 849636
+    },
+    {
+      "number": 42,
+      "title": "Avoid copy-trading language",
+      "description": "The bot’s action is not an instruction to anyone else.",
+      "image": "nft-collection/images/042-avoid-copy-trading-language.png",
+      "prompt": "nft-collection/prompts/042-avoid-copy-trading-language.txt",
+      "status": "generated",
+      "attempts": 1,
+      "bytes": 657879
+    },
+    {
+      "number": 43,
+      "title": "Publish the bot’s operating window",
+      "description": "Readers need to know whether silence means no signal, no run, or no post.",
+      "image": "nft-collection/images/043-publish-the-bot-s-operating-window.png",
+      "prompt": "nft-collection/prompts/043-publish-the-bot-s-operating-window.txt",
+      "status": "generated",
+      "attempts": 1,
+      "bytes": 768648
+    },
+    {
+      "number": 44,
+      "title": "Define the bot’s emergency stop",
+      "description": "Explain who can pause it and under what conditions.",
+      "image": "nft-collection/images/044-define-the-bot-s-emergency-stop.png",
+      "prompt": "nft-collection/prompts/044-define-the-bot-s-emergency-stop.txt",
+      "status": "generated",
+      "attempts": 1,
+      "bytes": 807116
+    },
+    {
+      "number": 45,
+      "title": "Record total supply",
+      "description": "Verify it from the chain or canonical platform source.",
+      "image": "nft-collection/images/045-record-total-supply.png",
+      "prompt": "nft-collection/prompts/045-record-total-supply.txt",
+      "status": "generated",
+      "attempts": 1,
+      "bytes": 629387
+    },
+    {
+      "number": 46,
+      "title": "Check creator allocation",
+      "description": "Find the creator allocation and state what remains unknown.",
+      "image": "nft-collection/images/046-check-creator-allocation.png",
+      "prompt": "nft-collection/prompts/046-check-creator-allocation.txt",
+      "status": "generated",
+      "attempts": 1,
+      "bytes": 744368
+    },
+    {
+      "number": 47,
+      "title": "Check holder concentration",
+      "description": "Look for clusters, not just the top-holder percentage.",
+      "image": "nft-collection/images/047-check-holder-concentration.png",
+      "prompt": "nft-collection/prompts/047-check-holder-concentration.txt",
+      "status": "generated",
+      "attempts": 1,
+      "bytes": 756812
+    },
+    {
+      "number": 48,
+      "title": "Check linked wallets carefully",
+      "description": "A wallet relationship is an observation, not proof of common control.",
+      "image": "nft-collection/images/048-check-linked-wallets-carefully.png",
+      "prompt": "nft-collection/prompts/048-check-linked-wallets-carefully.txt",
+      "status": "generated",
+      "attempts": 1,
+      "bytes": 727546
+    },
+    {
+      "number": 49,
+      "title": "Check liquidity",
+      "description": "Record liquidity depth and timestamp. Do not confuse market cap with exit capacity.",
+      "image": "nft-collection/images/049-check-liquidity.png",
+      "prompt": "nft-collection/prompts/049-check-liquidity.txt",
+      "status": "generated",
+      "attempts": 1,
+      "bytes": 857496
+    },
+    {
+      "number": 50,
+      "title": "Check trading volume",
+      "description": "Separate volume, transaction count, unique traders, and suspected bot activity.",
+      "image": "nft-collection/images/050-check-trading-volume.png",
+      "prompt": "nft-collection/prompts/050-check-trading-volume.txt",
+      "status": "generated",
+      "attempts": 1,
+      "bytes": 788948
+    },
+    {
+      "number": 51,
+      "title": "Check the bonding curve state",
+      "description": "State how far the token is from migration and what threshold applies.",
+      "image": "nft-collection/images/051-check-the-bonding-curve-state.png",
+      "prompt": "nft-collection/prompts/051-check-the-bonding-curve-state.txt",
+      "status": "generated",
+      "attempts": 1,
+      "bytes": 857726
+    },
+    {
+      "number": 52,
+      "title": "Explain what migration changes",
+      "description": "Document venue, liquidity, fees, market makers, and new failure modes.",
+      "image": "nft-collection/images/052-explain-what-migration-changes.png",
+      "prompt": "nft-collection/prompts/052-explain-what-migration-changes.txt",
+      "status": "generated",
+      "attempts": 1,
+      "bytes": 890737
+    },
+    {
+      "number": 53,
+      "title": "Check whether migration is automatic",
+      "description": "If it is not, identify the required action and responsible party.",
+      "image": "nft-collection/images/053-check-whether-migration-is-automatic.png",
+      "prompt": "nft-collection/prompts/053-check-whether-migration-is-automatic.txt",
+      "status": "generated",
+      "attempts": 1,
+      "bytes": 825130
+    },
+    {
+      "number": 54,
+      "title": "Check the DEX destination",
+      "description": "Verify the exact venue and pool after migration. Do not trust a screenshot alone.",
+      "image": "nft-collection/images/054-check-the-dex-destination.png",
+      "prompt": "nft-collection/prompts/054-check-the-dex-destination.txt",
+      "status": "generated",
+      "attempts": 1,
+      "bytes": 808369
+    },
+    {
+      "number": 55,
+      "title": "Check lock claims",
+      "description": "Record lock amount, beneficiary, duration, and transaction receipt.",
+      "image": "nft-collection/images/055-check-lock-claims.png",
+      "prompt": "nft-collection/prompts/055-check-lock-claims.txt",
+      "status": "generated",
+      "attempts": 1,
+      "bytes": 701601
+    },
+    {
+      "number": 56,
+      "title": "Check unlock dates",
+      "description": "Put them on a calendar visible to the community.",
+      "image": "nft-collection/images/056-check-unlock-dates.png",
+      "prompt": "nft-collection/prompts/056-check-unlock-dates.txt",
+      "status": "generated",
+      "attempts": 1,
+      "bytes": 751806
+    },
+    {
+      "number": 57,
+      "title": "Check burn claims",
+      "description": "A burn is only meaningful with amount, source wallet, destination, and transaction.",
+      "image": "nft-collection/images/057-check-burn-claims.png",
+      "prompt": "nft-collection/prompts/057-check-burn-claims.txt",
+      "status": "generated",
+      "attempts": 1,
+      "bytes": 821188
+    },
+    {
+      "number": 58,
+      "title": "Check whether burned supply matters",
+      "description": "A percentage can sound large while changing little about holder concentration or liquidity.",
+      "image": "nft-collection/images/058-check-whether-burned-supply-matters.png",
+      "prompt": "nft-collection/prompts/058-check-whether-burned-supply-matters.txt",
+      "status": "generated",
+      "attempts": 1,
+      "bytes": 742239
+    },
+    {
+      "number": 59,
+      "title": "Check creator fees",
+      "description": "Explain who earns fees, when, and what public promise governs them.",
+      "image": "nft-collection/images/059-check-creator-fees.png",
+      "prompt": "nft-collection/prompts/059-check-creator-fees.txt",
+      "status": "generated",
+      "attempts": 1,
+      "bytes": 824500
+    },
+    {
+      "number": 60,
+      "title": "Check whether funds can be returned",
+      "description": "If the community funds infrastructure, define refund conditions before collecting.",
+      "image": "nft-collection/images/060-check-whether-funds-can-be-returned.png",
+      "prompt": "nft-collection/prompts/060-check-whether-funds-can-be-returned.txt",
+      "status": "generated",
+      "attempts": 1,
+      "bytes": 680524
+    },
+    {
+      "number": 61,
+      "title": "Ask the community to solve a research question",
+      "description": "Choose a question with a public answer instead of a payment target.",
+      "image": "nft-collection/images/061-ask-the-community-to-solve-a-research-question.png",
+      "prompt": "nft-collection/prompts/061-ask-the-community-to-solve-a-research-question.txt",
+      "status": "generated",
+      "attempts": 1,
+      "bytes": 815117
+    },
+    {
+      "number": 62,
+      "title": "Run a holder-distribution audit",
+      "description": "Let several people reproduce the result independently.",
+      "image": "nft-collection/images/062-run-a-holder-distribution-audit.png",
+      "prompt": "nft-collection/prompts/062-run-a-holder-distribution-audit.txt",
+      "status": "generated",
+      "attempts": 1,
+      "bytes": 806201
+    },
+    {
+      "number": 63,
+      "title": "Run a creator-wallet audit",
+      "description": "Use public addresses only and label uncertain connections.",
+      "image": "nft-collection/images/063-run-a-creator-wallet-audit.png",
+      "prompt": "nft-collection/prompts/063-run-a-creator-wallet-audit.txt",
+      "status": "generated",
+      "attempts": 1,
+      "bytes": 744507
+    },
+    {
+      "number": 64,
+      "title": "Run a bot-behavior audit",
+      "description": "Compare bot activity with non-bot activity over a fixed interval.",
+      "image": "nft-collection/images/064-run-a-bot-behavior-audit.png",
+      "prompt": "nft-collection/prompts/064-run-a-bot-behavior-audit.txt",
+      "status": "generated",
+      "attempts": 1,
+      "bytes": 763423
+    },
+    {
+      "number": 65,
+      "title": "Run a migration rehearsal",
+      "description": "Write the post-migration plan before migration begins.",
+      "image": "nft-collection/images/065-run-a-migration-rehearsal.png",
+      "prompt": "nft-collection/prompts/065-run-a-migration-rehearsal.txt",
+      "status": "generated",
+      "attempts": 1,
+      "bytes": 732977
+    },
+    {
+      "number": 66,
+      "title": "Build a community receipt board",
+      "description": "Track completed checks, sources, corrections, and unresolved questions.",
+      "image": "nft-collection/images/066-build-a-community-receipt-board.png",
+      "prompt": "nft-collection/prompts/066-build-a-community-receipt-board.txt",
+      "status": "generated",
+      "attempts": 1,
+      "bytes": 786725
+    },
+    {
+      "number": 67,
+      "title": "Give contributors credit",
+      "description": "Use consented pseudonyms or roles, not wallet exposure.",
+      "image": "nft-collection/images/067-give-contributors-credit.png",
+      "prompt": "nft-collection/prompts/067-give-contributors-credit.txt",
+      "status": "generated",
+      "attempts": 1,
+      "bytes": 728666
+    },
+    {
+      "number": 68,
+      "title": "Publish a weekly field note",
+      "description": "Report one thing learned, one thing shipped, one thing wrong, and one next test.",
+      "image": "nft-collection/images/068-publish-a-weekly-field-note.png",
+      "prompt": "nft-collection/prompts/068-publish-a-weekly-field-note.txt",
+      "status": "generated",
+      "attempts": 1,
+      "bytes": 712250
+    },
+    {
+      "number": 69,
+      "title": "Publish a public changelog",
+      "description": "Let readers see whether the project changes in response to evidence.",
+      "image": "nft-collection/images/069-publish-a-public-changelog.png",
+      "prompt": "nft-collection/prompts/069-publish-a-public-changelog.txt",
+      "status": "generated",
+      "attempts": 1,
+      "bytes": 767489
+    },
+    {
+      "number": 70,
+      "title": "Create a correction badge",
+      "description": "Make changing one’s mind a visible contribution rather than a humiliation.",
+      "image": "nft-collection/images/070-create-a-correction-badge.png",
+      "prompt": "nft-collection/prompts/070-create-a-correction-badge.txt",
+      "status": "generated",
+      "attempts": 1,
+      "bytes": 731976
+    },
+    {
+      "number": 71,
+      "title": "Create a “not yet” badge",
+      "description": "Reward restraint when the evidence is insufficient.",
+      "image": "nft-collection/images/071-create-a-not-yet-badge.png",
+      "prompt": "nft-collection/prompts/071-create-a-not-yet-badge.txt",
+      "status": "generated",
+      "attempts": 1,
+      "bytes": 782428
+    },
+    {
+      "number": 72,
+      "title": "Make the checklist forkable",
+      "description": "Let other communities reuse it and return improvements.",
+      "image": "nft-collection/images/072-make-the-checklist-forkable.png",
+      "prompt": "nft-collection/prompts/072-make-the-checklist-forkable.txt",
+      "status": "generated",
+      "attempts": 1,
+      "bytes": 882982
+    },
+    {
+      "number": 73,
+      "title": "Mission: verify the identity card",
+      "description": "The first mission should eliminate ambiguity, not produce hype.",
+      "image": "nft-collection/images/073-mission-verify-the-identity-card.png",
+      "prompt": "nft-collection/prompts/073-mission-verify-the-identity-card.txt",
+      "status": "generated",
+      "attempts": 1,
+      "bytes": 720894
+    },
+    {
+      "number": 74,
+      "title": "Mission: find the oldest artifact",
+      "description": "Locate the earliest public evidence of the creator’s stated idea.",
+      "image": "nft-collection/images/074-mission-find-the-oldest-artifact.png",
+      "prompt": "nft-collection/prompts/074-mission-find-the-oldest-artifact.txt",
+      "status": "generated",
+      "attempts": 1,
+      "bytes": 710546
+    },
+    {
+      "number": 75,
+      "title": "Mission: reproduce one bot result",
+      "description": "Use public inputs and document whether the result matches.",
+      "image": "nft-collection/images/075-mission-reproduce-one-bot-result.png",
+      "prompt": "nft-collection/prompts/075-mission-reproduce-one-bot-result.txt",
+      "status": "generated",
+      "attempts": 1,
+      "bytes": 816393
+    },
+    {
+      "number": 76,
+      "title": "Mission: identify one falsifier",
+      "description": "Ask what would make the current story wrong.",
+      "image": "nft-collection/images/076-mission-identify-one-falsifier.png",
+      "prompt": "nft-collection/prompts/076-mission-identify-one-falsifier.txt",
+      "status": "generated",
+      "attempts": 1,
+      "bytes": 902421
+    },
+    {
+      "number": 77,
+      "title": "Mission: produce the believer collection",
+      "description": "Co-design Print.World traits, metadata, and rules.",
+      "image": "nft-collection/images/077-mission-produce-the-believer-collection.png",
+      "prompt": "nft-collection/prompts/077-mission-produce-the-believer-collection.txt",
+      "status": "generated",
+      "attempts": 1,
+      "bytes": 730851
+    },
+    {
+      "number": 78,
+      "title": "Mission: make the collection survive the token",
+      "description": "Write a cultural description that does not mention price.",
+      "image": "nft-collection/images/078-mission-make-the-collection-survive-the-token.png",
+      "prompt": "nft-collection/prompts/078-mission-make-the-collection-survive-the-token.txt",
+      "status": "generated",
+      "attempts": 1,
+      "bytes": 681405
+    },
+    {
+      "number": 79,
+      "title": "Mission: publish a failure card",
+      "description": "Turn one mistake into a compact public lesson.",
+      "image": "nft-collection/images/079-mission-publish-a-failure-card.png",
+      "prompt": "nft-collection/prompts/079-mission-publish-a-failure-card.txt",
+      "status": "generated",
+      "attempts": 1,
+      "bytes": 708243
+    },
+    {
+      "number": 80,
+      "title": "Mission: review the migration plan",
+      "description": "Have a reader find the missing assumption.",
+      "image": "nft-collection/images/080-mission-review-the-migration-plan.png",
+      "prompt": "nft-collection/prompts/080-mission-review-the-migration-plan.txt",
+      "status": "generated",
+      "attempts": 1,
+      "bytes": 735125
+    },
+    {
+      "number": 81,
+      "title": "Mission: audit the community funding proposal",
+      "description": "Check destination, target, refund rule, and receipt path.",
+      "image": "nft-collection/images/081-mission-audit-the-community-funding-proposal.png",
+      "prompt": "nft-collection/prompts/081-mission-audit-the-community-funding-proposal.txt",
+      "status": "generated",
+      "attempts": 1,
+      "bytes": 877452
+    },
+    {
+      "number": 82,
+      "title": "Mission: build the post-DEX checklist",
+      "description": "The pre-DEX book should not pretend the risk ends at launch.",
+      "image": "nft-collection/images/082-mission-build-the-post-dex-checklist.png",
+      "prompt": "nft-collection/prompts/082-mission-build-the-post-dex-checklist.txt",
+      "status": "generated",
+      "attempts": 1,
+      "bytes": 631669
+    },
+    {
+      "number": 83,
+      "title": "Create one canonical landing page",
+      "description": "Put the identity card, checklist, receipts, collection, and corrections in one place.",
+      "image": "nft-collection/images/083-create-one-canonical-landing-page.png",
+      "prompt": "nft-collection/prompts/083-create-one-canonical-landing-page.txt",
+      "status": "generated",
+      "attempts": 1,
+      "bytes": 828216
+    },
+    {
+      "number": 84,
+      "title": "Use one link convention",
+      "description": "Every post should lead to a stable artifact, not a maze of temporary links.",
+      "image": "nft-collection/images/084-use-one-link-convention.png",
+      "prompt": "nft-collection/prompts/084-use-one-link-convention.txt",
+      "status": "generated",
+      "attempts": 1,
+      "bytes": 704461
+    },
+    {
+      "number": 85,
+      "title": "Publish diagrams before slogans",
+      "description": "A simple flow from launch to migration is more useful than another “moon” image.",
+      "image": "nft-collection/images/085-publish-diagrams-before-slogans.png",
+      "prompt": "nft-collection/prompts/085-publish-diagrams-before-slogans.txt",
+      "status": "generated",
+      "attempts": 1,
+      "bytes": 668764
+    },
+    {
+      "number": 86,
+      "title": "Turn receipts into cards",
+      "description": "Use the same fields every time: claim, source, timestamp, scope, uncertainty.",
+      "image": "nft-collection/images/086-turn-receipts-into-cards.png",
+      "prompt": "nft-collection/prompts/086-turn-receipts-into-cards.txt",
+      "status": "generated",
+      "attempts": 1,
+      "bytes": 725871
+    },
+    {
+      "number": 87,
+      "title": "Make screenshots readable",
+      "description": "A receipt no one can read is decoration.",
+      "image": "nft-collection/images/087-make-screenshots-readable.png",
+      "prompt": "nft-collection/prompts/087-make-screenshots-readable.txt",
+      "status": "generated",
+      "attempts": 1,
+      "bytes": 809447
+    },
+    {
+      "number": 88,
+      "title": "Use threads for mechanisms",
+      "description": "One post should carry one mechanism or one decision.",
+      "image": "nft-collection/images/088-use-threads-for-mechanisms.png",
+      "prompt": "nft-collection/prompts/088-use-threads-for-mechanisms.txt",
+      "status": "generated",
+      "attempts": 1,
+      "bytes": 884868
+    },
+    {
+      "number": 89,
+      "title": "Use memes for memory",
+      "description": "A meme can compress a lesson; it cannot replace the receipt.",
+      "image": "nft-collection/images/089-use-memes-for-memory.png",
+      "prompt": "nft-collection/prompts/089-use-memes-for-memory.txt",
+      "status": "regenerated",
+      "attempts": 1,
+      "bytes": 1001194
+    },
+    {
+      "number": 90,
+      "title": "Keep the voice human",
+      "description": "The creator’s public uncertainty is an asset. Do not sand it into corporate copy.",
+      "image": "nft-collection/images/090-keep-the-voice-human.png",
+      "prompt": "nft-collection/prompts/090-keep-the-voice-human.txt",
+      "status": "generated",
+      "attempts": 1,
+      "bytes": 754492
+    },
+    {
+      "number": 91,
+      "title": "State that participation is optional",
+      "description": "No one should be pressured to buy, contribute, mint, or remain.",
+      "image": "nft-collection/images/091-state-that-participation-is-optional.png",
+      "prompt": "nft-collection/prompts/091-state-that-participation-is-optional.txt",
+      "status": "generated",
+      "attempts": 1,
+      "bytes": 739413
+    },
+    {
+      "number": 92,
+      "title": "State what the project cannot guarantee",
+      "description": "Name price, liquidity, migration, bot performance, NFT value, and creator availability.",
+      "image": "nft-collection/images/092-state-what-the-project-cannot-guarantee.png",
+      "prompt": "nft-collection/prompts/092-state-what-the-project-cannot-guarantee.txt",
+      "status": "generated",
+      "attempts": 1,
+      "bytes": 731163
+    },
+    {
+      "number": 93,
+      "title": "State what the creator will disclose",
+      "description": "Set a schedule for locks, burns, transfers, bot changes, and corrections.",
+      "image": "nft-collection/images/093-state-what-the-creator-will-disclose.png",
+      "prompt": "nft-collection/prompts/093-state-what-the-creator-will-disclose.txt",
+      "status": "generated",
+      "attempts": 1,
+      "bytes": 704964
+    },
+    {
+      "number": 94,
+      "title": "State what the community owns",
+      "description": "Define whether members own art, access, governance, receipts, or only their individual assets.",
+      "image": "nft-collection/images/094-state-what-the-community-owns.png",
+      "prompt": "nft-collection/prompts/094-state-what-the-community-owns.txt",
+      "status": "generated",
+      "attempts": 1,
+      "bytes": 854559
+    },
+    {
+      "number": 95,
+      "title": "State what is not being sold",
+      "description": "Do not imply that a membership NFT is an investment contract, a guaranteed exit, or a claim on future work unless that has been legally reviewed.",
+      "image": "nft-collection/images/095-state-what-is-not-being-sold.png",
+      "prompt": "nft-collection/prompts/095-state-what-is-not-being-sold.txt",
+      "status": "generated",
+      "attempts": 1,
+      "bytes": 785593
+    },
+    {
+      "number": 96,
+      "title": "Create a quiet exit path",
+      "description": "A holder should be able to leave without being shamed or harassed.",
+      "image": "nft-collection/images/096-create-a-quiet-exit-path.png",
+      "prompt": "nft-collection/prompts/096-create-a-quiet-exit-path.txt",
+      "status": "generated",
+      "attempts": 1,
+      "bytes": 959858
+    },
+    {
+      "number": 97,
+      "title": "Create a dispute path",
+      "description": "Name where questions, corrections, and concerns go.",
+      "image": "nft-collection/images/097-create-a-dispute-path.png",
+      "prompt": "nft-collection/prompts/097-create-a-dispute-path.txt",
+      "status": "generated",
+      "attempts": 1,
+      "bytes": 849033
+    },
+    {
+      "number": 98,
+      "title": "Preserve the archive",
+      "description": "Keep dated copies of the identity card, claims, receipts, and corrections.",
+      "image": "nft-collection/images/098-preserve-the-archive.png",
+      "prompt": "nft-collection/prompts/098-preserve-the-archive.txt",
+      "status": "generated",
+      "attempts": 1,
+      "bytes": 695736
+    },
+    {
+      "number": 99,
+      "title": "Ask whether the community has built something together",
+      "description": "If not, the DEX is probably being asked to perform the work of belonging.",
+      "image": "nft-collection/images/099-ask-whether-the-community-has-built-something-together.png",
+      "prompt": "nft-collection/prompts/099-ask-whether-the-community-has-built-something-together.txt",
+      "status": "generated",
+      "attempts": 1,
+      "bytes": 757562
+    },
+    {
+      "number": 100,
+      "title": "Ask whether the DEX changes the underlying trust conditions",
+      "description": "If it only makes the token visible on a terminal, call it visibility infrastructure—not trust.",
+      "image": "nft-collection/images/100-ask-whether-the-dex-changes-the-underlying-trust-condi.png",
+      "prompt": "nft-collection/prompts/100-ask-whether-the-dex-changes-the-underlying-trust-condi.txt",
+      "status": "generated",
+      "attempts": 1,
+      "bytes": 901410
+    },
+    {
+      "number": 101,
+      "title": "Pay only after the evidence path exists",
+      "description": "The DEX may eventually be useful. It should be the consequence of a community that has identified itself, produced receipts, survived disagreement, and chosen the next experiment together. It should not be the first proof that the project cares.",
+      "image": "nft-collection/images/101-pay-only-after-the-evidence-path-exists.png",
+      "prompt": "nft-collection/prompts/101-pay-only-after-the-evidence-path-exists.txt",
+      "status": "generated",
+      "attempts": 1,
+      "bytes": 928775
+    }
+  ]
+}
