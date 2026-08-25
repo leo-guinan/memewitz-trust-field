@@ -20,3 +20,4 @@ venv/
 
 # Generated local output not part of the public collection
 *.log
+public/
