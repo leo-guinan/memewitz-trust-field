@@ -17,6 +17,7 @@ venv/
 .DS_Store
 .vscode/
 .idea/
+.wrangler/
 
 # Generated local output not part of the public collection
 *.log
