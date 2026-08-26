@@ -2,7 +2,12 @@
 
 This is a research harness for testing whether a public trader's observable activity contains a reproducible signal. It is not a fund, broker, exchange, custody system, trading bot, or investment recommendation.
 
-Current identity status: no verified creator wallet, exact mint, or transaction ledger is present in this repository. The fixture is synthetic and explicitly non-evidence.
+Identity status: the public Pump coin API links VIRUSEM mint `3rbh7...pump` to creator wallet `jmemeh...tru`. This is a public attribution for this experiment, not proof that the wallet controls any other wallet or token.
+
+The first bounded public scan is now recorded in `observations.jsonl` with its
+`collection-receipt.json`. It covers 200 recent creator-wallet signatures and
+found two finalized VIRUSEM `BuyV2` observations. It found no sells in that
+window. These rows are public-chain observations, not proof of profitability.
 
 ## What it does
 
@@ -34,6 +39,24 @@ python3 research/copy-trade-lab/replay.py replay \
 ```
 
 The fixture exists to test mechanics only. Its positive result is not evidence about any real trader.
+
+## Refresh a bounded public scan
+
+```bash
+python3 research/copy-trade-lab/collect_creator.py \
+  --limit 200 --sleep 1 \
+  --output research/copy-trade-lab/observations.jsonl \
+  --receipt research/copy-trade-lab/collection-receipt.json
+```
+
+The collector uses a public Solana RPC and only writes finalized transactions
+that contain the verified mint and a Pump buy/sell instruction. It records the
+creator wallet, mint, transaction signature, block time, token delta, native
+balance delta, and explicit limitations. It does not submit transactions.
+
+The observation ledger is deliberately separate from replay input: on-chain
+events do not automatically provide the delayed executable copy price required
+for a fair replay.
 
 ## Observation contract
 

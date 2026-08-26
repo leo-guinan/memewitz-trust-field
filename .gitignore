@@ -4,6 +4,7 @@
 *.private.*
 *.ndjson
 *.jsonl
+!research/copy-trade-lab/observations.jsonl
 raw/
 private/
 

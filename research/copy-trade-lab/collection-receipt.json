@@ -1,0 +1,16 @@
+{
+  "limitations": [
+    "This is a bounded scan, not a complete wallet history.",
+    "Wallet balance delta is not automatically an exact trade quote; it can include fees, rent, or unrelated movements.",
+    "No delayed copy price is available, so observations are not replay-ready.",
+    "No transaction was submitted or signed."
+  ],
+  "matching_observations": 2,
+  "mint": "3rbh7vzmyMgSmgssKHLn8iprVbsNgnWEj4h98hQhpump",
+  "mode": "watch_only",
+  "requested_signature_limit": 200,
+  "retrieved_at": "2026-08-26T11:36:42.947744Z",
+  "rpc": "https://solana-rpc.publicnode.com",
+  "signatures_scanned": 200,
+  "wallet": "jmemehQbZXX7QqNE7Eyi81MdTZw6cEAT6TU4Kinwtru"
+}
