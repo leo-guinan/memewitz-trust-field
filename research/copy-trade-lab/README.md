@@ -58,6 +58,27 @@ The observation ledger is deliberately separate from replay input: on-chain
 events do not automatically provide the delayed executable copy price required
 for a fair replay.
 
+## Profile recovered callouts across windows
+
+`profile_callouts.py` compares a recovered callout stream with timestamped
+market observations. It evaluates 0s/30s/2m/5m/15m entry delays against
+5m/15m/1h/6h/24h windows by default:
+
+```bash
+python3 research/copy-trade-lab/profile_callouts.py \
+  --callouts research/copy-trade-lab/fixtures/callouts.jsonl \
+  --market research/copy-trade-lab/fixtures/market.jsonl \
+  --output /tmp/callout-profile.json
+```
+
+Callout rows require `callout_id`, exact `mint`, timezone-aware
+`callout_time`, source URL, and a status of `verified`, `partially_verified`,
+or `unknown`. Market rows require exact `mint`, timestamp, and `price_usd`.
+The evaluator reports coverage separately from conditional 2x hit rate. A
+missing price observation is `no_entry_observation` or
+`no_window_observations`, never a zero-return call. Peak multiples are
+retrospective path statistics, not executable profit claims.
+
 ## Observation contract
 
 Every JSONL row must contain:
